@@ -1,0 +1,102 @@
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(24, 23, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full {
+    width: 50%;
+    max-width: 90%;
+    min-height: 80px;
+    background-color: rgba(11, 11, 11, 0.087);
+    margin-right: 20%;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    border-radius: 50%;
+}
+
+.left {
+
+    position: initial;
+    background-color: teal;
+    padding: 20px;
+}
+
+.right {
+    position: initial;
+    background-color: rgba(247, 247, 138, 0.671);
+    padding: 20px;
+    border-radius: 6%;
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title, 
+.Summary, .Experience, .Education, .project {
+    margin-bottom: 30px;
+}
+.h2 {
+    background-color: rgb(4, 96, 150);
+}
+.table{
+    border-color: rgb(9, 9, 0);
+    border-radius: 5px;
+}
+.submit{
+    background-color:aliceblue;
+    border-radius: 6px;
+    padding: auto;
+    margin-right: 90%;
+    margin-top: 55;
+    margin-bottom: 80%;
+}
+.submit:hover{
+    background-color: rgba(0, 0, 0, 0.331);
+    cursor: pointer;
+}
+.pagination{
+    display: contents;
+}
+.pagination a{
+    color: black;
+    padding: 15px;
+    float: left;
+    margin: 0.7cm;
+    text-decoration: navy;
+}
+.pagination a:active{
+    background-color: rgb(166, 8, 8);
+    float: left;
+    padding: 16px;
+    margin: 0cm;
+    text-decoration: rgb(11, 91, 4);
+}
+.container{
+    position: relative;
+    width: 50%;
+}
+.overlay{
+    position: absolute;
+    top: 10px;
+    bottom: 1px;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s;
+    background-color: aqua;
+}
+.img{
+    border-radius: 50%;
+}
+.insta{
+     border-radius: 33%;
+}
+.twitter{
+    border-radius: 33%;
+}
